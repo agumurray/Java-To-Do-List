@@ -4,6 +4,7 @@ import javax.swing.JPanel;
 import java.awt.GridLayout;
 import java.awt.Color;
 import java.awt.Component;
+import java.awt.Dimension;
 
 public class List extends JPanel{
   List(){
@@ -11,6 +12,7 @@ public class List extends JPanel{
   layout.setVgap(5);
 
   this.setLayout(layout);
+  this.setPreferredSize(new Dimension(400,560));
   }
 
   public void updateNumbers(){

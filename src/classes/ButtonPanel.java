@@ -21,14 +21,14 @@ ButtonPanel(){
   this.setPreferredSize(new Dimension(400,60));
 
   addTask = new JButton("Add Task");
-  addTask.setBorder(getBorder());
+  addTask.setBorder(emptyBorder);
   addTask.setFont(new Font("Sans-serif", Font.PLAIN, 20));
-  
+  addTask.setVerticalAlignment(JButton.BOTTOM);
   this.add(addTask);
 
   this.add(Box.createHorizontalStrut(20));
   clear = new JButton("Clear completed tasks");
-  clear.setBorder(getBorder());
+  clear.setBorder(emptyBorder);
   clear.setFont(new Font("Sans-serif", Font.PLAIN, 20));
 
   this.add(clear);

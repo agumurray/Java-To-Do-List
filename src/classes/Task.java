@@ -39,6 +39,7 @@ public class Task extends JPanel{
     done = new JButton("Done");
     done.setPreferredSize(new Dimension(40,20));
     done.setBorder(BorderFactory.createEmptyBorder());
+    done.setFocusPainted(false);
 
     this.add(done,BorderLayout.EAST);
   }
