@@ -3,7 +3,6 @@ package classes;
 import javax.swing.JPanel;
 import javax.swing.JButton;
 import java.awt.Dimension;
-import java.awt.Color;
 import javax.swing.border.*;
 import java.awt.Font;
 import javax.swing.BorderFactory;

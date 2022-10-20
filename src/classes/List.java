@@ -2,7 +2,6 @@ package classes;
 
 import javax.swing.JPanel;
 import java.awt.GridLayout;
-import java.awt.Color;
 import java.awt.Component;
 import java.awt.Dimension;
 
